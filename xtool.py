@@ -66,7 +66,7 @@ def menu_principal():
         if choix == '1':
             target_ip = input("\033[1;32mEntrez l'adresse IP cible : \033[0m")
             target_port = int(input("\033[1;32mEntrez le port cible : \033[0m"))
-            duree_attaque = int(input("\033[1;32mEntrez la durée de l'attaque (secondes) : \033[0m"))
+            duree_attaque = int(input("\033[1;32mEntrez la durée de l'attaque (en secondes) : \033[0m"))
             nombre_threads = int(input("\033[1;32mEntrez le nombre de threads : \033[0m"))
             paquets = int(input("\033[1;32mEntrez le nombre de paquets par connexion : \033[0m"))
             print("\033[1;31mLancement de l'attaque...\033[0m")
